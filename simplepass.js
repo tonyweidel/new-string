@@ -4,7 +4,7 @@ function checkString(str){
     return str;
   }
   else{
-    throw new RangeError("Password must be between 8 and 20 characters");
+    throw new RangeError("Password must be between 8 and 20 characters!");
   }
 }
 
@@ -18,3 +18,4 @@ function getString(str){
     getString("mitchell");
   }
 }
+getString("IBuyMitchACandyBar")
